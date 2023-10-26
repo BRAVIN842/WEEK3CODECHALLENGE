@@ -7,7 +7,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     let availableTickets; // Number of available tickets
 
     //fetch movie data from API endpoint
-    fetch('http://localhost:3000/films')
+    fetch('https://my-json-server.typicode.com/BRAVIN842/WEEK3CODECHALLENGE/films')
       .then(response => response.json())
       .then(films => {
         //Load details of first movie when page loads
